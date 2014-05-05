@@ -1,0 +1,69 @@
+harbinger:~/python$ python Pickle.py
+/home/dmenghani/python_lib/scikit_learn-0.14.1-py2.7-linux-x86_64.egg/sklearn/pls.py:7: DeprecationWarning: This module has been moved to cross_decomposition and will be removed in 0.16
+  "removed in 0.16", DeprecationWarning)
+Setting constants...
+Reading into Pandas frame...
+
+/home/dmenghani/python/2001.csv
+Length of original dataset -  5967780
+Removing cancelled flights...
+Length after random sampling, taking {one - third} of the file -  1912194
+
+
+/home/dmenghani/python/2002.csv
+Length of original dataset -  5271359
+Removing cancelled flights...
+Length after random sampling, taking {one - third} of the file -  1735405
+
+
+/home/dmenghani/python/2003.csv
+Length of original dataset -  6488540
+Removing cancelled flights...
+Length after random sampling, taking {one - third} of the file -  2129023
+
+
+/home/dmenghani/python/2004.csv
+Length of original dataset -  7129270
+Removing cancelled flights...
+Length after random sampling, taking {one - third} of the file -  2333837
+
+
+/home/dmenghani/python/2005.csv
+Length of original dataset -  7140596
+Removing cancelled flights...
+Length after random sampling, taking {one - third} of the file -  2335622
+
+
+/home/dmenghani/python/2006.csv
+Length of original dataset -  7141922
+Removing cancelled flights...
+Length after random sampling, taking {one - third} of the file -  2339996
+
+
+/home/dmenghani/python/2007.csv
+Length of original dataset -  7453215
+Removing cancelled flights...
+Length after random sampling, taking {one - third} of the file -  2430822
+
+
+/home/dmenghani/python/2008.csv
+Length of original dataset -  7009728
+Removing cancelled flights...
+Length after random sampling, taking {one - third} of the file -  2290764
+
+Total length for all years -  17507663
+Calculating classification label...
+Dataframe shape -  (17507663, 12)
+Columns - Index([u'Year', u'Month', u'DayofMonth', u'DayOfWeek', u'DepTime', u'UniqueCarrier', u'TailNum', u'DepDelay', u'Origin', u'Dest', u'Distance', u'label'], dtype='object')
+Converting categorical data to numeric...
+Converting... Origin
+Converting... UniqueCarrier
+Converting... Dest
+Converting... TailNum
+Pickled origin_all.pkl
+Pickled tailnum_all.pkl
+Pickled dest_all.pkl
+Pickled carrier_all.pkl
+Conversion to discrete data completed.
+Pickled dataframe_all.pkl
+harbinger:~/python$
